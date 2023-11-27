@@ -15,3 +15,11 @@ zbozi = [
         "cathegory" : (4, "Sluchátka")
     }
 ]
+
+
+print(sorted(zbozi,key=lambda zbozi:zbozi["price"]))
+print("================================================")
+print(sorted(zbozi,key=lambda zbozi:zbozi["name"],reverse=True))
+print("================================================")
+print(sorted(zbozi,key=lambda zbozi:zbozi["cathegory"][0]))
+print("================================================")
